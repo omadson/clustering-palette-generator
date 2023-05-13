@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "clustering-palette-generator"
+version = "0.1.0"
+description = ""
+authors = ["Madson Dias <madsonddias@gmail.com>"]
+readme = "README.md"
+packages = [{include = "clustering_palette_generator"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyterlab = "^3.6.3"
+streamlit = "^1.22.0"
+scikit-learn = "^1.2.2"
+numpy = "^1.24.3"
+matplotlib = "^3.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
